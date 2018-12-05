@@ -1,12 +1,9 @@
 ---
 title: Plympton Codes
 ---
-
 # Plympton Codes
 
-We live in a world surrounded by technology. And we know that whatever field our students choose to go into as adults, their ability to succeed will increasingly hinge on understanding how technology works. But only a tiny fraction of us are learning computer science, and fewer students are studying it than a decade ago.
-
-To prepare students for the future, every class at Plympton is participating in a coding activity during the week of December 10-14.
+We live in a world surrounded by technology. And we know that whatever field our students choose to go into as adults, their ability to succeed will increasingly hinge on understanding how technology works. To prepare students for the future, every class at Plympton is participating in a coding activity during the week of December 10-14.
 
 ## Why Computer Science?
 
