@@ -3,9 +3,7 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
 
-  max-width:600px;
-  padding:10px 10%;
-  margin: auto;
+
   font-size:22px;
 
 
@@ -14,6 +12,9 @@ body {
 
 #main{
   text-shadow: 1px 1px 3px rgba(#000, 0.15);
+  max-width:600px;
+  padding:10px 10%;
+  margin: auto;
 }
 
 a {
@@ -34,4 +35,12 @@ h1{
 
   font-size:3.5em;
   text-align:center;
+}
+
+#translation_message, #google_translate_element{
+
+}
+
+#translations{
+  text-align: center;
 }
