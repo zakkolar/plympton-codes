@@ -17,6 +17,32 @@ var PLtranslation=function(){
         }
     }
 
+    var setup = function(){
+        var transEl = document.getElementById('google_translate_element');
+        var div = transEl.getElementsByClassName('goog-te-gadget')[0];
+        var children = div.childNodes;
+        var remove = [];
+        for(var i=0; i<children.length; i++){
+            var child = children[i];
+            if(child.nodeType==3){
+                remove.push(child);
+            }
+            if(child.tagName==="SPAN"){
+                remove.push(child)
+            }
+        }
+
+        for(var i=0; i<remove.length; i++){
+            remove[i].remove();
+        }
+
+
+        var div = document.getElementById('google_translate_element');
+        var select = div.getElementsByTagName('select')[0]
+
+
+    }
+
     var showMessage=function(){
         var div = document.getElementById('google_translate_element');
         var select = div.getElementsByTagName('select')[0]
@@ -35,6 +61,6 @@ var PLtranslation=function(){
             run();
         }, 4000)
     }
-
+    setup();
     run();
 }
