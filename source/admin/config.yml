@@ -19,3 +19,16 @@ collections:
       - label: Body
         name: body
         widget: markdown
+  - name: activity
+    label: Projects
+    label_singular: Project
+    folder: "source/activity"
+    create: true
+    format: frontmatter
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
