@@ -8,6 +8,7 @@ public_folder: /images/uploads
 collections:
   - folder: "source/"
     label: Pages
+    label_singular: Page
     name: pages
     create: true
     fields:
