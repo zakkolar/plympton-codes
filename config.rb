@@ -19,7 +19,7 @@ activate :livereload
 activate :minify_html
 
 
-page "activity/*", :layout => :project_layout
+page "activity/*", :layout => :activity_layout
 
 activate :directory_indexes
 
