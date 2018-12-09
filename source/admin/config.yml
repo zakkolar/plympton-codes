@@ -6,31 +6,30 @@ media_folder: source/images/uploads
 public_folder: /images/uploads
 
 collections:
-  - name: pages
+  - folder: "source/"
     label: Pages
-    files:
-    - file: "source/index.html.md"
-      label: Homepage
-      name: home
-      fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Menu position
-        name: menu_position
-        widget: number
-      - label: Menu title
-        name: menu_title
-        widget: string
-      - label: Body
-        name: body
-        widget: markdown
+    name: pages
+    create: true
+    fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Menu position
+      name: menu_position
+      widget: number
+    - label: Menu title
+      name: menu_title
+      widget: string
+    - label: Body
+      name: body
+      widget: markdown
   - name: activity
-    label: Projects
-    label_singular: Project
+    label: Activities
+    label_singular: Activity
     folder: "source/activity"
-    create: false
+    create: true
     format: frontmatter
+    extension: ".html.md"
     fields:
       - label: Title
         name: title
