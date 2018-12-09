@@ -11,7 +11,24 @@
     <%= javascript_include_tag "site" %>
   </head>
   <body>
-  <%= partial "partials/translate" %>
+
+
+  <nav class="nav" role="nav">
+    <input type="checkbox" id="menuToggle">
+    <label for="menuToggle">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </label>
+    <ul>
+      <% sitemap.resources.find_all{|p| !p.data.menu_position.nil?}.sort_by{|p| p.data.menu_position}.each do |r| %>
+        <li <%= "class='active'".html_safe if current_page.path == r.path || current_page.data.menu_parent == r.path %> > <%= link_to r.data.menu_title || r.data.title, "/"+r.path %></li>
+      <% end %>
+    </ul>
+  </nav>
+  <div id="translations">
+    <div id="google_translate_element"></div>
+  </div>
   <div id="main">
     <%= yield %>
   </div>

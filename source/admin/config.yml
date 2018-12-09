@@ -19,6 +19,9 @@ collections:
       - label: Menu position
         name: menu_position
         widget: number
+      - label: Menu title
+        name: menu_title
+        widget: string
       - label: Body
         name: body
         widget: markdown
@@ -26,7 +29,7 @@ collections:
     label: Projects
     label_singular: Project
     folder: "source/activity"
-    create: true
+    create: false
     format: frontmatter
     fields:
       - label: Title
