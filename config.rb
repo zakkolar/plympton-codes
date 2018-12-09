@@ -16,6 +16,9 @@ page '/*.txt', layout: false
 
 activate :livereload
 
+activate :minify_html
+
+
 page "activity/*", :layout => :project_layout
 
 activate :directory_indexes
