@@ -13,6 +13,7 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+proxy "_redirects", "netlify-redirects", ignore: true
 
 activate :livereload
 
