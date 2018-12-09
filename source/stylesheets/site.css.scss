@@ -1,5 +1,7 @@
 $base-color: #00bfff;
 
+$break-size: 779px;
+
 body {
   background-color: $base-color;
   color: white;
@@ -91,7 +93,7 @@ label[for=menuToggle]{
   display: none;
 }
 
-@media(max-width: 730px){
+@media(max-width: $break-size){
   .nav{
     li{
       display: block;
@@ -130,6 +132,8 @@ label[for=menuToggle]{
     position: absolute;
     top: 10px;
     left: 10px;
+    background-color: white;
+    padding:5px;
     .bar1, .bar2, .bar3 {
       width: 35px;
       height: 5px;
@@ -143,7 +147,7 @@ label[for=menuToggle]{
   }
 
   #translations{
-    padding-top:30px;
+    padding-top:35px;
   }
 }
 
