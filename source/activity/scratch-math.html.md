@@ -1,4 +1,4 @@
 ---
-title: Scratch
+title: Coding with Scratch
 phosphorus: true
 ---
