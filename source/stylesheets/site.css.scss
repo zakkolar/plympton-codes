@@ -18,6 +18,13 @@ body {
   max-width:600px;
   padding:10px 10%;
   margin: auto;
+  img{
+    max-width: calc(100% - 10px);
+    border: white solid 5px;
+    box-shadow: 2px 2px 5px rgba(#000, 0.1);
+    display: block;
+    margin: auto;
+  }
 
 }
 
