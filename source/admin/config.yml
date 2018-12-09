@@ -16,6 +16,9 @@ collections:
       - label: Title
         name: title
         widget: string
+      - label: Menu position
+        name: menu_position
+        widget: number
       - label: Body
         name: body
         widget: markdown
