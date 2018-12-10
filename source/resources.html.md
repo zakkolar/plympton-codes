@@ -5,7 +5,7 @@ menu_title: Free Resources
 ---
 # Free Coding Resources
 
-The resources below can help kids (and grown ups!) learn how to code for free in fun and engaging ways outside of school.
+The resources below can help kids (and grown ups!) learn how to code for free in fun and engaging ways outside of school on a variety of devices including smart phones, tablets, and computers.
 
 ## ScratchJr
 
@@ -50,4 +50,4 @@ Ages: 4-104
 <br>Experience levels: all
 <br>Devices: assorted
 
-There are far too many resources available than can fit on this page. Code.org has a [repository of activities](https://code.org/hourofcode/overview) for Hour of Code, an international initiative to bring computer science into schools. Some of these activities are created and hosted by Code.org and others are curated from other educational computer science providers. This collection has a wide variety of self-contained tutorials and projects for learns of all ages and experience levels, including and beyond elementary school. This is a good resource for trying out coding without having a particular project in mind.
+There are far more resources available than can fit on this page. Code.org has a [repository of activities](https://code.org/hourofcode/overview) for Hour of Code, an international initiative to bring computer science into schools. Some of these activities are created and hosted by Code.org and others are curated from other educational computer science providers. This collection has a wide variety of self-contained tutorials and projects for learns of all ages and experience levels, including and beyond elementary school. This is a good resource for trying out coding without having a particular project in mind.
