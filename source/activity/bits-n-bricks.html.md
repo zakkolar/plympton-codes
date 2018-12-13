@@ -7,7 +7,7 @@ Bit is a little, very adventurous LEGO® robot, but as with all small creatures,
 
 ## Computational Thinking
 
-This activity helps students think like programmers by breaking a problem down into individual steps. They use LEGO's® coding interface to translate these steps into instructions a computer can understand. They watch the computer complete their instructions and note any areas in need of debugging (being changed to fix problems). As students continue to solidify their computational thinking, they can solve more complex problems using more complex languages.
+This activity helps students think like programmers by breaking a problem down into individual steps. They use LEGO's® coding interface to translate these steps into instructions a computer can understand. They watch the computer complete their instructions and note any areas in need of debugging (fixing errors in code). As students continue to solidify their computational thinking, they can solve more complex problems using more complex languages.
 
 ## Next Steps
 
